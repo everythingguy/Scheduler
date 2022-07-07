@@ -1,0 +1,2 @@
+build/**
+!build/input.txt
