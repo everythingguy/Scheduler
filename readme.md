@@ -94,4 +94,53 @@ Types can be mixed in a tab delimited text file.
 
 # Example Output
 
-![Example Output](/output.png "Example Output")
+```
+Database prepopulated
+Would you like to import a new file? (Yes/No)
+Yes
+What is the path to the input file?
+input.txt
+Appointment Schedule
+Sue's Schedule
+Bay Number  Customer Name      Vehicle Description                            Service             Start Date & Time               End Date & Time
+1             J. Billings           Chevrolet 1500            Cooling System Cleaning         2022-07-11 08:00:00.0         2022-07-11 12:00:00.0
+1             J. Billings    Chevrolet Monte Carlo            Cooling System Cleaning         2022-07-11 13:00:00.0         2022-07-11 17:00:00.0
+1                N. Smith               Ford Focus    Transmission Filter Replacement         2022-07-12 08:00:00.0         2022-07-12 10:00:00.0
+1                A. Stark        Chevorlet Equinox                         Oil Change         2022-07-12 10:00:00.0         2022-07-12 10:30:00.0
+1               H. Potter      Dodge Grand Caravan                   Tire Replacement         2022-07-12 10:30:00.0         2022-07-12 11:30:00.0
+1              U. Giacomo         Pontiac Firebird                             Brakes         2022-07-12 11:30:00.0         2022-07-12 15:30:00.0
+1             K. Williams       Oldsmobile Cutless                   Tire Replacement         2022-07-12 15:30:00.0         2022-07-12 16:30:00.0
+1                M. Gomez       Ferrari Testarossa                             Brakes         2022-07-13 08:00:00.0         2022-07-13 11:00:00.0
+1             K. Williams       Oldsmobile Cutless    Transmission Filter Replacement         2022-07-13 11:00:00.0         2022-07-13 14:00:00.0
+1              U. Giacomo         Chevrolet Camero                             Brakes         2022-07-13 14:00:00.0         2022-07-13 17:00:00.0
+1              U. Giacomo         Pontiac Firebird            Cooling System Cleaning         2022-07-14 08:00:00.0         2022-07-14 12:00:00.0
+1                 R. Zico            Jeep Wrangler                             Brakes         2022-07-14 13:00:00.0         2022-07-14 16:00:00.0
+1              U. Giacomo         Chevrolet Camero                             Brakes         2022-07-15 08:00:00.0         2022-07-15 11:00:00.0
+1              R. Stevens              Kia Sorento                             Brakes         2022-07-15 11:00:00.0         2022-07-15 15:00:00.0
+1               M. Noviss           Chevrolet Volt    Transmission Filter Replacement         2022-07-15 15:00:00.0         2022-07-15 17:00:00.0
+Paychecks:
+Week 1: $385.00
+
+Steve's Schedule
+Bay Number  Customer Name      Vehicle Description                            Service             Start Date & Time               End Date & Time
+2              R. Stevens              Kia Sorento            Cooling System Cleaning         2022-07-11 08:00:00.0         2022-07-11 12:00:00.0
+2               Z. Samero               Dodge Dart                             Brakes         2022-07-11 13:00:00.0         2022-07-11 16:00:00.0
+2                H. Davis         Ford Thunderbird                         Oil Change         2022-07-11 16:00:00.0         2022-07-11 16:30:00.0
+2                F. Tomas               Dodge Dart                         Oil Change         2022-07-11 16:30:00.0         2022-07-11 17:00:00.0
+2                N. Smith            Buick Skylark                   Tire Replacement         2022-07-12 08:00:00.0         2022-07-12 09:00:00.0
+2              S. Rodgers         Pontiac Solstice                             Brakes         2022-07-12 09:00:00.0         2022-07-12 12:00:00.0
+2             N. Fletcher                GMC Envoy            Cooling System Cleaning         2022-07-12 13:00:00.0         2022-07-12 17:00:00.0
+2              U. Giacomo             Ford Mustang            Cooling System Cleaning         2022-07-13 08:00:00.0         2022-07-13 12:00:00.0
+2                 R. Zico            Jeep Wrangler                   Tire Replacement         2022-07-13 13:00:00.0         2022-07-13 14:00:00.0
+2               T. Thomas             Jeep Liberty    Transmission Filter Replacement         2022-07-13 14:00:00.0         2022-07-13 16:00:00.0
+2              U. Giacomo             Ford Mustang            Cooling System Cleaning         2022-07-14 08:00:00.0         2022-07-14 12:00:00.0
+2               M. Noviss           Chevrolet Volt    Transmission Filter Replacement         2022-07-14 13:00:00.0         2022-07-14 15:00:00.0
+2               M. Noviss            Jeep Cherokee    Transmission Filter Replacement         2022-07-14 15:00:00.0         2022-07-14 17:00:00.0
+2                N. Smith               Ford Focus                             Brakes         2022-07-15 08:00:00.0         2022-07-15 11:00:00.0
+2             K. Williams       Oldsmobile Cutless            Cooling System Cleaning         2022-07-15 11:00:00.0         2022-07-15 16:00:00.0
+Paychecks:
+Week 1: $342.00
+
+Would you like to drop the database? (Yes/No)
+No
+```
